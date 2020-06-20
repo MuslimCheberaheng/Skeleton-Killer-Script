@@ -6,7 +6,7 @@ public class DamageToPlayer : MonoBehaviour
 {
   void OnTriggerEnter(Collider collider)
     {
-        if (collider.tag == "KnightBody") //Attack to the enemies
+        if (collider.tag == "KnightBody") //Attack to the Player
         { 
            HealthBarScriptKnight.healthKnight -= 10;                            
            print("666");
