@@ -1,0 +1,5 @@
+Skeleton Killer is a game that player needs to kill all the enemies. 
+The objective of the game is the player needs to kill all the enemies in the area
+The enemies can run and attack the player
+The player can use the health pack to heal
+the health pact will instantiate randomly and the player needs to find it 
