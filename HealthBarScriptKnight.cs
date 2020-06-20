@@ -4,38 +4,19 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthBarScriptKnight : MonoBehaviour
-{
-    
-    Image healthBar;
+{    
+    Image healthBar; //for adding sprite image
     float maxHealthKnight = 100;
     public static float healthKnight;
-    //public Skeleton Script;
-
     
-
     void Start()
     {
-        healthBar = GetComponent<Image>();
-        healthKnight = maxHealthKnight;
-        //Script = GetComponent<Skeleton>();
-
-       
-    }
+        healthBar = GetComponent<Image>(); 
+        healthKnight = maxHealthKnight;               
+    }              
     
-  
-
-    
-    
-
-
-
     void Update()
     {
-        healthBar.fillAmount = healthKnight / maxHealthKnight;
-       
-        //if (HealthBarScriptKnight.health == 0)
-        //{
-            
-        //}
+        healthBar.fillAmount = healthKnight / maxHealthKnight; //enemies UI healthbar         
     }
 }
